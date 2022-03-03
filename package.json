@@ -1,0 +1,53 @@
+{
+  "_from": "github:danielweck/MathJax-single-file",
+  "_id": "mathjax-single-file@12.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/mathjax-single-file",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "github:danielweck/MathJax-single-file",
+    "rawSpec": "github:danielweck/MathJax-single-file",
+    "saveSpec": "github:danielweck/MathJax-single-file",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "github:danielweck/MathJax-single-file#e5b8b188f59595af8cb0cef4bfd855ec91b18571",
+  "_spec": "github:danielweck/MathJax-single-file",
+  "_where": "C:\\workspace\\git\\readium-js-viewer",
+  "author": {
+    "name": "MathJax Consortium"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Peter Krautzberger",
+      "email": "peter@krautzource.com",
+      "url": "http://krautzource.com/"
+    },
+    {
+      "name": "Dominique Rochefort",
+      "url": "https://github.com/drochgenius"
+    }
+  ],
+  "deprecated": false,
+  "description": "A tool to build MathJax bundles.",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "concat-with-sourcemaps": "^1.1.0",
+    "mathjax": "2.7.5",
+    "uglify-js": "^3.0.0",
+    "write": "^1.0.0"
+  },
+  "name": "mathjax-single-file",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js"
+  },
+  "version": "12.0.0"
+}
